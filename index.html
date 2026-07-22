@@ -1,98 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Discuss Business Services | Local Business Research & Consumer Guides</title>
+<title>Discuss Business Services | Research-Based Local Business Reviews</title>
 
-<meta name="description" content="Discuss Business Services is an independent editorial website where James Carter researches local businesses, home improvement companies, contractors, cleaning services, auto detailing, and more.">
+<meta name="description" content="Discuss Business Services is an independent business research platform where James Carter shares local business reviews, consumer guides, and service recommendations.">
 
-<meta name="keywords" content="Local Business Research, Home Improvement, Cleaning Services, Auto Detailing, Contractors, Remodeling, Consumer Guides">
+<meta name="keywords" content="Business Research, Local Business Reviews, James Carter, Local Services">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
-body{
-font-family:Arial,Helvetica,sans-serif;
+*{
 margin:0;
-background:#f7f7f7;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+
+background:#f6f8fb;
 color:#333;
-line-height:1.7;
+
 }
 
 header{
-background:#0b5ed7;
-color:white;
-padding:60px 20px;
+
+background:#fff;
+box-shadow:0 3px 15px rgba(0,0,0,.08);
+
+}
+
+.logo{
+
 text-align:center;
+padding:20px;
+
 }
 
-header h1{
-<div style="text-align:center;padding:15px;">
-    <img src="logo.png" alt="Discuss Business Services Logo" width="170">
-</div><img src="banner.jpg"
-alt="Discuss Business Services Banner"
-style="width:100%;height:450px;object-fit:cover;">
+.logo img{
+
+width:180px;
+
 }
 
-header p{
-font-size:20px;
-margin-top:15px;
+.banner img{
+
+width:100%;
+height:500px;
+object-fit:cover;
+
+}
+
+nav{
+
+background:#0a4ea3;
+position:sticky;
+top:0;
+z-index:999;
+
+}
+
+nav ul{
+
+display:flex;
+justify-content:center;
+list-style:none;
+flex-wrap:wrap;
+
+}
+
+nav ul li{
+
+margin:0 20px;
+
+}
+
+nav a{
+
+display:block;
+padding:18px;
+text-decoration:none;
+color:white;
+font-weight:600;
+transition:.3s;
+
+}
+
+nav a:hover{
+
+background:#083978;
+
+}
+
+.hero{
+
+max-width:1200px;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+gap:60px;
+
+padding:80px 20px;
+
+align-items:center;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+color:#0a4ea3;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+line-height:1.9;
+
+margin-bottom:25px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+background:#0a4ea3;
+
+padding:15px 35px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+color:white;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:#062b61;
+
+}
+
+.box{
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.box h2{
+
+color:#0a4ea3;
+
+margin-bottom:20px;
+
+}
+
+.box li{
+
+margin:12px 0;
+
+}
+
+.section{
+
+padding:90px 20px;
+
 }
 
 .container{
-width:90%;
+
 max-width:1200px;
+
 margin:auto;
-padding:40px 0;
+
 }
 
-.card{
-background:white;
-padding:30px;
-margin-bottom:30px;
-border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,.08);
+.title{
+
+text-align:center;
+
+font-size:42px;
+
+color:#0a4ea3;
+
+margin-bottom:15px;
+
 }
 
-h2{
-color:#0b5ed7;
+.subtitle{
+
+text-align:center;
+
+color:#777;
+
+margin-bottom:60px;
+
 }
 
 .grid{
+
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
 }
 
-.service{
-background:#fff;
-padding:25px;
-border-radius:8px;
-box-shadow:0 2px 8px rgba(0,0,0,.08);
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+transition:.3s;
+
 }
 
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:25px;
-margin-top:40px;
+.card:hover{
+
+transform:translateY(-8px);
+
 }
 
-a{
-color:#0b5ed7;
-text-decoration:none;
-font-weight:bold;
+.card h3{
+
+color:#0a4ea3;
+
+margin-bottom:15px;
+
 }
 
-.button{
-display:inline-block;
-padding:12px 24px;
-background:#0b5ed7;
-color:white;
-border-radius:6px;
-margin-top:20px;
+.card p{
+
+line-height:1.8;
+
 }
 
 </style>
@@ -103,133 +277,135 @@ margin-top:20px;
 
 <header>
 
-<h1>Discuss Business Services</h1>
+<div class="logo">
 
-<p>Independent Editorial Research by James Carter</p>
-
-<a class="button" href="#">Explore Latest Research</a>
-
-</header>
-
-<div class="container">
-
-<div class="card">
-
-<h2>About Discuss Business Services</h2>
-
-<p>
-
-Discuss Business Services is an independent editorial platform created to help homeowners, business owners, and local communities make informed decisions before hiring service providers.
-
-Rather than publishing promotional content, our goal is to research businesses, analyze customer needs, explore industry best practices, and publish educational articles that help readers compare services with confidence.
-
-</p>
-
-<p>
-
-Our articles cover contractors, remodelers, cleaning companies, auto detailing specialists, junk removal businesses, flooring experts, HVAC contractors, painters, roofing companies, and many other local service industries across North America.
-
-</p>
+<img src="Dlsscuss Business Services.png" alt="Discuss Business Services">
 
 </div>
 
-<div class="card">
+<div class="banner">
 
-<h2>Meet The Researcher</h2>
-
-<h3>James Carter</h3>
-
-<p>
-
-James Carter is an independent business researcher and editorial writer focused on local businesses, home improvement, automotive services, property maintenance, and consumer education.
-
-His work is based on market research, service comparisons, industry standards, customer concerns, and practical buying advice designed to help readers choose reliable local businesses.
-
-</p>
+<img src="Dlsscuss Business Services (2).png" alt="Discuss Business Services Banner">
 
 </div>
 
-<div class="card">
-
-<h2>Topics We Research</h2>
-
-<div class="grid">
-
-<div class="service">
-
-<h3>Home Improvement</h3>
-
-<p>Kitchen remodeling, bathroom renovations, roofing, flooring, painting, siding, windows, decks and home renovation guides.</p>
-
-</div>
-
-<div class="service">
-
-<h3>Cleaning Services</h3>
-
-<p>Residential cleaning, commercial cleaning, pressure washing, window cleaning and deep cleaning resources.</p>
-
-</div>
-
-<div class="service">
-
-<h3>Automotive</h3>
-
-<p>Car detailing, ceramic coating, paint correction, interior detailing and vehicle protection research.</p>
-
-</div>
-
-<div class="service">
-
-<h3>Property Services</h3>
-
-<p>Junk removal, handyman services, hauling, landscaping and maintenance guides for homeowners.</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<h2>Latest Editorial Categories</h2>
+<nav>
 
 <ul>
 
-<li>Local Business Reviews</li>
+<li><a href="#">Home</a></li>
 
-<li>Consumer Buying Guides</li>
+<li><a href="#">About</a></li>
 
-<li>Business Research Articles</li>
+<li><a href="#">Services</a></li>
 
-<li>Homeowner Tips</li>
+<li><a href="#">Blog</a></li>
 
-<li>Automotive Care</li>
+<li><a href="#">Categories</a></li>
 
-<li>Cleaning Industry</li>
+<li><a href="#">Contact</a></li>
 
-<li>Construction & Remodeling</li>
+</ul>
 
-<li>Junk Removal Services</li>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Helping You Find Reliable Local Businesses Through Independent Research</h1>
+
+<p>
+
+Welcome to <strong>Discuss Business Services</strong>, an independent research website created by <strong>James Carter</strong>. Every article published here focuses on helping homeowners and local customers understand businesses before making important decisions.
+
+Instead of simply listing companies, we research service quality, customer experience, local reputation, and industry best practices to create practical guides that people can actually use.
+
+</p>
+
+<a href="#" class="btn">Read Latest Research</a>
+
+</div>
+
+<div class="box">
+
+<h2>What You'll Discover</h2>
+
+<ul>
+
+<li>✔ Local Business Reviews</li>
+
+<li>✔ Auto Detailing Research</li>
+
+<li>✔ Home Improvement Guides</li>
+
+<li>✔ Cleaning Service Insights</li>
+
+<li>✔ Contractor Recommendations</li>
+
+<li>✔ Consumer Buying Tips</li>
+
+<li>✔ Industry Research</li>
+
+<li>✔ Local Service Comparisons</li>
 
 </ul>
 
 </div>
 
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="title">
+
+Featured Research Categories
+
+</h2>
+
+<p class="subtitle">
+
+Research-driven articles written for homeowners, business owners, and local consumers.
+
+</p>
+
+<div class="grid">
+
 <div class="card">
 
-<h2>Our Editorial Mission</h2>
+<h3>Auto Detailing</h3>
 
 <p>
 
-Every article published on Discuss Business Services is written with one purpose: helping readers understand how local services work, what questions to ask before hiring, what mistakes to avoid, and which businesses consistently demonstrate professionalism and customer satisfaction.
+Explore ceramic coating, paint correction, PPF, interior detailing, exterior detailing, and professional vehicle care guides.
 
 </p>
 
+</div>
+
+<div class="card">
+
+<h3>Home Improvement</h3>
+
 <p>
 
-We believe informed customers make better decisions.
+Kitchen remodeling, bathroom renovation, roofing, painting, flooring, handyman services, and remodeling research.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Cleaning Services</h3>
+
+<p>
+
+Pressure washing, window cleaning, junk removal, commercial cleaning, and residential cleaning recommendations.
 
 </p>
 
@@ -237,21 +413,277 @@ We believe informed customers make better decisions.
 
 </div>
 
-<footer>
+</div>
 
-<p>
+</section>
+<section class="section" style="background:#ffffff;">
 
-© 2026 Discuss Business Services
+<div class="container">
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(450px,1fr));gap:60px;align-items:center;">
+
+<div>
+
+<h2 style="font-size:40px;color:#0a4ea3;margin-bottom:20px;">Meet The Researcher</h2>
+
+<h3 style="margin-bottom:20px;">James Carter</h3>
+
+<p style="margin-bottom:20px;line-height:1.9;">
+
+I created <strong>Discuss Business Services</strong> with one simple goal—help people make smarter decisions before hiring local businesses.
+
+Every article on this website is based on research, industry trends, customer experience, service quality, and publicly available information. Instead of publishing promotional content, I focus on practical insights that help readers compare local companies with confidence.
 
 </p>
 
-<p>
+<p style="line-height:1.9;">
 
-Independent Research • Local Business Insights • Consumer Education
+Whether it's auto detailing, junk removal, home improvement, cleaning services, or contractors, every guide is written to answer real customer questions.
 
 </p>
+
+</div>
+
+<div>
+
+<div style="background:#0a4ea3;padding:40px;border-radius:15px;color:white;">
+
+<h3 style="margin-bottom:25px;">Why Readers Trust This Website</h3>
+
+<p style="margin-bottom:15px;">✔ Independent Business Research</p>
+
+<p style="margin-bottom:15px;">✔ Local Service Recommendations</p>
+
+<p style="margin-bottom:15px;">✔ Consumer-Friendly Guides</p>
+
+<p style="margin-bottom:15px;">✔ Honest Business Reviews</p>
+
+<p>✔ Updated Industry Insights</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="title">Latest Research Articles</h2>
+
+<p class="subtitle">
+
+Discover detailed research covering local businesses across different industries.
+
+</p>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Auto Detailing</h3>
+
+<p>
+
+Research on ceramic coating, paint correction, interior detailing and long-term vehicle protection.
+
+</p>
+
+<a href="#" class="btn" style="margin-top:20px;display:inline-block;">Read Article</a>
+
+</div>
+
+<div class="card">
+
+<h3>Junk Removal</h3>
+
+<p>
+
+Understand furniture removal, appliance disposal, pricing, recycling practices and local service quality.
+
+</p>
+
+<a href="#" class="btn" style="margin-top:20px;display:inline-block;">Read Article</a>
+
+</div>
+
+<div class="card">
+
+<h3>Home Improvement</h3>
+
+<p>
+
+Explore remodeling, roofing, handyman services, painting, flooring and renovation guides.
+
+</p>
+
+<a href="#" class="btn" style="margin-top:20px;display:inline-block;">Read Article</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section style="background:#0a4ea3;color:white;padding:90px 20px;text-align:center;">
+
+<div class="container">
+
+<h2 style="font-size:42px;margin-bottom:20px;">
+
+Looking for a Reliable Local Business?
+
+</h2>
+
+<p style="max-width:800px;margin:auto;margin-bottom:35px;font-size:18px;line-height:1.9;">
+
+Our research helps homeowners and business owners compare local companies before making a hiring decision. Browse our latest articles and discover trusted service providers in your area.
+
+</p>
+
+<a href="#" style="background:white;color:#0a4ea3;padding:15px 40px;text-decoration:none;border-radius:8px;font-weight:600;">
+
+Explore Research
+
+</a>
+
+</div>
+
+</section>
+
+<footer style="background:#111;color:#ddd;padding:70px 20px;">
+
+<div class="container">
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:40px;">
+
+<div>
+
+<h3 style="color:white;margin-bottom:20px;">
+
+Discuss Business Services
+
+</h3>
+
+<p>
+
+Independent business research platform helping consumers make informed decisions through trusted reviews and practical local service guides.
+
+</p>
+
+</div>
+
+<div>
+
+<h3 style="color:white;margin-bottom:20px;">
+
+Research Categories
+
+</h3>
+
+<p>Auto Detailing</p>
+
+<p>Cleaning Services</p>
+
+<p>Junk Removal</p>
+
+<p>Home Improvement</p>
+
+<p>Contractors</p>
+
+</div>
+
+<div>
+
+<h3 style="color:white;margin-bottom:20px;">
+
+Quick Links
+
+</h3>
+
+<p><a href="#" style="color:#ddd;text-decoration:none;">Home</a></p>
+
+<p><a href="#" style="color:#ddd;text-decoration:none;">About</a></p>
+
+<p><a href="#" style="color:#ddd;text-decoration:none;">Blog</a></p>
+
+<p><a href="#" style="color:#ddd;text-decoration:none;">Contact</a></p>
+
+</div>
+
+</div>
+
+<hr style="margin:50px 0;border:1px solid #333;">
+
+<p style="text-align:center;">
+
+© 2026 Discuss Business Services | Research by James Carter | All Rights Reserved
+
+</p>
+
+</div>
 
 </footer>
 
+<style>
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+img{
+
+max-width:100%;
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.title{
+
+font-size:30px;
+
+}
+
+.subtitle{
+
+font-size:16px;
+
+}
+
+nav ul{
+
+flex-direction:column;
+
+}
+
+nav li{
+
+text-align:center;
+
+border-bottom:1px solid rgba(255,255,255,.1);
+
+}
+
+}
+
+</style>
+
 </body>
+
 </html>
